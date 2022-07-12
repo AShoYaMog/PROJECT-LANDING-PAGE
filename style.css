@@ -95,7 +95,7 @@ button {
 
 .section_1_img {
     width: 50%;
-    height: auto;
+    min-height: 250px;
     background-color: #E5E7EB;
 }
 
@@ -105,14 +105,37 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .information {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
+    margin-bottom: 20px;
 }
 
+.infoconteiner {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.infoimage {
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.infotext {
+    text-align: center;
+}
 /* section 3 */
 .section_3 {
     height: 400px;
