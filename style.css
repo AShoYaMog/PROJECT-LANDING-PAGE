@@ -99,8 +99,8 @@ button {
 }
 
 .section_1_img {
-    width: 50%;
-    min-height: 250px;
+    width: 500px;
+    max-height: 250px;
     background-color: #E5E7EB;
 }
 
